@@ -5,18 +5,17 @@ import Footer from "../components/Footer";
 import Content from "../components/Content";
 import Link from 'next/link';
 
-export default class extends Component {
+export default class Signin extends Component {
     render() {
         return (
             <Page>
                 <Header />
                 <Content>
-                    <h2>Home</h2>
-                    
-                    <Link href="/about">
-                        <a>Go to about</a>
-                    </Link>{'  '}
+                    <h2>Signin</h2>
                 </Content>
+                <Footer>
+                    <p>Footer</p>
+                </Footer>
             </Page>
         );
     }
