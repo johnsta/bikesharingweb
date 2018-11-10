@@ -31,7 +31,11 @@ export default class extends Component {
     render() {
         var listBikes = this.state.bikes.map(function (bike) {
             return (
-                <BikeCard id={bike.id} name={bike.name} address={bike.address} rate={bike.rate} imageUrl={bike.imageUrl} />
+                <Link href={`/preview?id=${bike.id}`}>
+                    <div>
+                        <BikeCard id={bike.id} name={bike.name} address={bike.address} rate={bike.rate} imageUrl={bike.imageUrl} />
+                    </div>
+                </Link>
             );
         });
         return (

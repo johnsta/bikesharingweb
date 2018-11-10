@@ -18,6 +18,7 @@ export default class FormButton extends React.Component {
                 <button type="submit" className="btn" onClick={this.handleClick}>{this.props.children}</button>
                 <style jsx>{`
                     .btn {
+                        opactiy: 1;
                         background-color: #E67938;
                         border-color: #E67938;
                         width: 100%;

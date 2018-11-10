@@ -1,16 +1,30 @@
 const Footer = (props) => (
-    <div>
-      {props.children}
-       <style jsx>{`
-       div {
-         background-color: #B5D3E7;
+  <div className="footer-container">
+    <div className="footer-content">
+        {props.children}
+    </div>
+    <style jsx>{`
+       .footer-content {
+         bottom: 10px;
+         position: fixed;
+         text-align:center;
+       }
+       .footer-container {
+         background-color: #fff;
          position: fixed;
          bottom: 0px;
          width: 100%;
-         height: 80px;
+         height: 140px;
          padding-top: 10px;
          padding-bottom: 10px;
          padding-left: 20px;
+        -webkit-mask-image: linear-gradient(
+          to bottom,
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 0) 10%,
+          rgba(255, 255, 255, 1) 50%,
+          rgba(255, 255, 255, 1) 100%
+          );
        }
       //  @media (min-width: 768px) {
       //   div {
@@ -20,7 +34,7 @@ const Footer = (props) => (
       //   }
       }
       `}</style>
-    </div>
-  )
-  
-  export default Footer
+  </div>
+)
+
+export default Footer
