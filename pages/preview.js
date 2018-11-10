@@ -33,10 +33,10 @@ const Preview = withRouter((props) => (
             </div>
         </Content>
         <Footer>
-            <div className="footer-content">
+            {/* <div className="footer-content"> */}
                 <FormButton>Rent bike</FormButton>
                 <FormNote text="*You won't be charged until you return the bike"/>
-            </div>
+            {/* </div> */}
         </Footer>>
         <style jsx global>{`
             .footer-content {

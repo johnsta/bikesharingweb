@@ -6,8 +6,9 @@ const Footer = (props) => (
     <style jsx global>{`
        .footer-content {
          bottom: 10px;
-         position: fixed;
+        //  position: fixed;
          text-align:center;
+        margin-top: 60px;
        }
        .footer-container {
          background-color: #fff;
@@ -15,9 +16,9 @@ const Footer = (props) => (
          bottom: 0px;
          width: 100%;
          height: 140px;
-         padding-top: 10px;
-         padding-bottom: 10px;
-         padding-left: 20px;
+        //  padding-top: 10px;
+        //  padding-bottom: 10px;
+        //  padding-left: 20px;
         -webkit-mask-image: linear-gradient(
           to bottom,
           rgba(255, 255, 255, 0) 0%,

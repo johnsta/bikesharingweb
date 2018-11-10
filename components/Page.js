@@ -13,8 +13,8 @@ const Page = (props) => (
         <style jsx global>{`
         html, body { 
             font-family: 'Heebo', san-serif;
-            margin: 0;
-            padding: 0;
+            // margin: 0;
+            // padding: 0;
             color: #688379;
         }
         a, p, div, br {
