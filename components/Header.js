@@ -9,15 +9,11 @@ const Header = (props) => (
             </div>
             <div className="col">
                 <Link href="/">
-                <img src="/static/title.png" alt="Adventure Works Cycles"/>
+                    <img src="/static/awc-title.png" alt="Adventure Works Cycles"/>
                 </Link>
             </div>
             <div className="col"></div>
         <style jsx>{`
-        img {
-            height: 32px;
-            width: 217px
-        }
         .row {
             padding-top: 12px;
             background-color: #fff;
