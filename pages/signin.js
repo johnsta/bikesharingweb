@@ -16,16 +16,25 @@ export default class Signin extends Component {
                 <Content>
                     <SigninFormLayout>
                         <Logo />
-                        <br/><br/><br/>
-                        <FormTextbox inputType="email" inputID="inputEmail" placeholder="Email"/>
-                        <FormTextbox inputType="password" inputID="inputPassword" placeholder="Password"/>
-                        <br/>
-                        <FormButton>Sign in</FormButton>
-                        <div>
-                            <Link href="/"><a>Sign up</a></Link>
-                        </div>
+                        <br /><br /><br />
+                        <form>
+                            <FormTextbox inputType="email" inputID="inputEmail" placeholder="Email" />
+                            <FormTextbox inputType="password" inputID="inputPassword" placeholder="Password" />
+                            <br />
+                            <FormButton>Sign in</FormButton>
+                            <div>
+                                <Link href="/"><a>Sign up</a></Link>
+                            </div>
+                        </form>
                     </SigninFormLayout>
                 </Content>
+                <style jsx>{`
+                form {
+                    width: 85%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                `}</style>
             </Page>
         );
     }

@@ -1,8 +1,6 @@
 const SigninFormLayout = (props) => (
-    <div>
-        <div className="center">
-            {props.children}
-        </div>
+    <div className="center">
+        {props.children}
         <style jsx>{`
         .center {
             text-align:center;
