@@ -31,6 +31,7 @@ const BikeCard = (props) => (
         margin-right: 12px;
         // border: 1px solid black;
         box-shadow:0px 2px 10px rgba(65, 65, 65, 0.25);
+        cursor: pointer;
       }
     `}</style>
   </div>

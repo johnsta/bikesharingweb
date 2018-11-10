@@ -6,11 +6,11 @@ const Field = (props) => (
       .fieldLabel {
         padding-top: 12px;
         text-transform: uppercase;
-        font-size: 9px;
+        font-size: 10px;
         font-weight: 600;
       }
       .fieldValue {
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 100;
       }
       div {

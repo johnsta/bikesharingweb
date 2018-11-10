@@ -1,8 +1,8 @@
 const Logo = (props) => (
     <div>
-      <img src="/static/bike.png" alt="Adventure Works Cycles"/>
-      <img src="/static/aw-title.png" alt="Adventure Works Cycles"/>
-      <img src="/static/cycle-subtitle.png" alt="Adventure Works Cycles"/>
+      <div><img src="/static/bike.png" alt="Adventure Works Cycles"/></div>
+      <div><img src="/static/aw-title.png" alt="Adventure Works Cycles"/></div>
+      <div><img src="/static/cycle-subtitle.png" alt="Adventure Works Cycles"/></div>
        <style jsx>{`
       img {
         padding-top:15px;

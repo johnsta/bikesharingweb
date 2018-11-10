@@ -9,13 +9,13 @@ export default class FormButton extends React.Component {
     }
 
     handleClick() {
-        Router.push('/');
+        Router.push('/index');
     }
 
     render() {
         return (
             <div>
-                <button type="submit" className="btn" onClick={this.handleClick}>{this.props.children}</button>
+                <button type="button" className="btn" onClick={this.handleClick}>{this.props.children}</button>
                 <style jsx>{`
                     .btn {
                         opactiy: 1;
@@ -26,6 +26,7 @@ export default class FormButton extends React.Component {
                         color: #fff;
                         margin-bottom: 10px;
                         font-size: 14px;
+                        max-width: 250px;
                     }
                 `}</style>
             </div>

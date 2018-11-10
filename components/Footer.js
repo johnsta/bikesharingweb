@@ -3,7 +3,7 @@ const Footer = (props) => (
     <div className="footer-content">
         {props.children}
     </div>
-    <style jsx>{`
+    <style jsx global>{`
        .footer-content {
          bottom: 10px;
          position: fixed;
