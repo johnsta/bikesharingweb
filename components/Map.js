@@ -7,6 +7,8 @@ const Map = (props) => (
         }
         img {
            border: 1px solid #C8C8C8;
+           width: 100%;
+           max-width: 400px;
         }
     `}</style>
     </div >

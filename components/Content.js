@@ -1,15 +1,16 @@
 const Content = (props) => (
-    <div>
-      {props.children}
-      <br/><br/><br/><br/>
-       <style jsx>{`
-       div {
-         padding-top: 10px;
-         padding-bottom: 10px;
-        //  padding-left: 20px;
-       }
+  <div className="content-container">
+    {props.children}
+    <br /><br /><br /><br />
+    <style jsx>{`
+      .content-container {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin:auto;
+        width: 90%;
+      }
       `}</style>
-    </div>
-  )
-  
-  export default Content
+  </div>
+)
+
+export default Content

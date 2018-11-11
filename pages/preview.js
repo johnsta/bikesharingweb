@@ -24,33 +24,30 @@ const Preview = withRouter((props) => (
                 <div className="title">{bike.name}</div>
                 <div className="owner">Owned by {bike.owner}</div>
                 <Field label="Price per hour" value={"$" + bike.rate} />
-                <FormNote text="Charging card ending with 1732"/>
-                
+                <FormNote text="Charging card ending with 1732" />
                 <Field label="Suggested rider height (meters)" value={bike.riderHeight} />
                 <Field label="Max weight (kg)" value={bike.maxWeight} />
                 <Field label="Pick-up/return address" value={bike.address} />
-                <Map/>
+                <Map />
             </div>
         </Content>
         <Footer>
-            {/* <div className="footer-content"> */}
-                <FormButton>Rent bike</FormButton>
-                <FormNote text="*You won't be charged until you return the bike"/>
-            {/* </div> */}
-        </Footer>>
+            <FormButton>Rent bike</FormButton>
+            <FormNote text="*You won't be charged until you return the bike" />
+        </Footer>
         <style jsx global>{`
             .footer-content {
                 width: 80%;
                 margin-left: auto;
                 margin-right: auto;
-                // color: blue;
-                // background-color: red;
             }
         `}</style>
         <style jsx>{`
+            img {
+                width: 100%;
+                max-width: 400px;
+            }
             .details-container {
-                padding-left: 5px;
-                padding-right: 12px;
                 padding-top: 11px;
                 letter-spacing: 0.5px;
             }
