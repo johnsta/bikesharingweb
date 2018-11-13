@@ -1,20 +1,18 @@
 import Link from 'next/link'
 
 const Header = (props) => (
-        <div className="row">
-            <div className="col">
-                <Link href="/signin">
-                    <span className="lnr lnr-menu"></span>
-                </Link>
-            </div>
-            <div className="col">
-                <Link href="/">
-                    <object data="/static/awc-title.svg" type="image/svg+xml">
-                        <img src="/static/awc-title.png" alt="Adventure Works Cycles"/>
-                    </object>
-                </Link>
-            </div>
-            <div className="col"></div>
+    <div className="row">
+        <div className="col">
+            <Link href="/signin">
+                <span className="lnr lnr-menu"></span>
+            </Link>
+        </div>
+        <div className="col">
+            <Link href="/">
+                <img src="/static/awc-title.svg" alt="Adventure Works Cycles" />
+            </Link>
+        </div>
+        <div className="col"></div>
         <style jsx>{`
         .row {
             padding-top: 12px;
