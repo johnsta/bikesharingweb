@@ -52,7 +52,7 @@ const Preview = withRouter((props) => (
                 letter-spacing: 0.5px;
             }
             .title {
-                font-size: 16px;
+                font-size: 18px;
                 padding-top: 10px;
                 letter-spacing: 1px;
                 font-weight: 600;
