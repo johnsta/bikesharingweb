@@ -9,7 +9,9 @@ const Header = (props) => (
             </div>
             <div className="col">
                 <Link href="/">
-                    <img src="/static/awc-title.png" alt="Adventure Works Cycles"/>
+                    <object data="/static/awc-title.svg" type="image/svg+xml">
+                        <img src="/static/awc-title.png" alt="Adventure Works Cycles"/>
+                    </object>
                 </Link>
             </div>
             <div className="col"></div>
